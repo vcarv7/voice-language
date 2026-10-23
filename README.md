@@ -134,15 +134,6 @@ uv run flet build apk --permissions microphone
 La app está pensada para ejecutarse en local con tu key. No distribuyas un build con
 una key embebida.
 
-## Límites conocidos
-
-- Turnos, no interpretación simultánea: hay una pausa de red entre que dejas de hablar
-  y suena la traducción (típicamente 2–4 s).
-- Sin detección automática de idioma: eliges la dirección con el micrófono que pulsas.
-- Sin cancelación de eco real: usa auriculares si el altavoz realimenta el micrófono.
-- El texto largo se corta a 4096 caracteres para la síntesis de voz.
-- Sin historial persistente: cada turno sustituye al anterior en pantalla.
-
 ## Siguientes pasos naturales
 
 1. Streaming de transcripción y traducción por frases para bajar la latencia.
